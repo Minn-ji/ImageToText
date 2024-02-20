@@ -2,8 +2,9 @@
 ``` Python
   root_path = ''
   model_path = os.path.join(root_path, 'clip")
-download_model on drive
 ```
+download_model on drive :
+
 
 ### get keyword dictionary and attention score of main keyword
 ``` Python
