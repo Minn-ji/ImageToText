@@ -4,7 +4,7 @@
   model_path = os.path.join(root_path, 'clip")
 ```
 - download safetensors on drive : 
-https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=drive_link
+> https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=drive_link
 
 
 ### get keyword dictionary and attention score of main keyword
@@ -14,4 +14,4 @@ https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=dri
   keyword_score_dict = inference(imgs_path, model)
 ```
 - result(csv file) saved at <./result>.
-- Return <{Text : [Keyword, Attention score]}> dictionary.
+- Return {Text : [Keyword, Attention score]} dictionary.
