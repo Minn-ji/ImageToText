@@ -7,11 +7,11 @@
   > https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=drive_link
 
 
-### get keyword dictionary and attention score of main keyword
+## get keyword dictionary and attention score of main keyword
 ``` Python
   model = load_interrogator(model_path, caption_model_name="blip-base", device="cuda") 
   imgs_path ='your image path'
   keyword_score_dict = inference(imgs_path, model)
 ```
-- result(csv file) saved at ./result.
-- Inference.py returns {Text : [Keyword, Attention score]} dictionary.
+- result(csv file) saved at <span style="background-color:gray">./result</span>.
+- Inference.py returns <span style="background-color:gray">{Text : [Keyword, Attention score]}</span> dictionary.
