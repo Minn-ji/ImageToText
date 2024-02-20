@@ -1,4 +1,4 @@
-## load model
+## Load model
 ``` Python
   root_path = ''
   model_path = os.path.join(root_path, 'clip')
@@ -7,7 +7,7 @@
   > https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=drive_link
 
 
-## get keyword dictionary and attention score of main keyword
+## Get keyword dictionary and attention score of keyword
 ``` Python
   model = load_interrogator(model_path, caption_model_name="blip-base", device="cuda") 
   imgs_path ='your image path'
