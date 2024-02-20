@@ -5,7 +5,7 @@
 download_model on drive
 ```
 
-### get keword dictionary and attention score of main keyword
+### get keyword dictionary and attention score of main keyword
 ``` Python
   model = load_interrogator(model_path, caption_model_name="blip-base", device="cuda") 
   imgs_path ='your image path'
