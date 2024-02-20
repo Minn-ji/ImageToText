@@ -1,3 +1,5 @@
+Extract Keyword from Image.
+
 ## Load model
 ``` Python
   root_path = ''
