@@ -13,5 +13,5 @@
   imgs_path ='your image path'
   keyword_score_dict = inference(imgs_path, model)
 ```
-- result(csv file) saved at <span style="background-color:#FFA9A9A9">./result</span>.
-- Inference.py returns <span style="background-color:#FFA9A9A9">{Text : [Keyword, Attention score]}</span> dictionary.
+- result(csv file) saved at <span style="background-color:blue">./result</span>.
+- Inference.py returns <span style="background-color:blue">{Text : [Keyword, Attention score]}</span> dictionary.
