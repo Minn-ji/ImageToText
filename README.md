@@ -4,7 +4,7 @@
   model_path = os.path.join(root_path, 'clip")
 ```
 - download safetensors on drive : 
-> https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=drive_link
+  > https://drive.google.com/drive/folders/1Fkq6O4VeFK-6NhYQU9rAIbkgSQO0NLef?usp=drive_link
 
 
 ### get keyword dictionary and attention score of main keyword
